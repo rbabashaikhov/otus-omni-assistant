@@ -1,0 +1,22 @@
+{
+  "experiment": "plant_hallucination",
+  "timestamp_utc": "2026-11-08T15:25:35.267944+00:00",
+  "models": {
+    "asr": "whisper-base",
+    "vlm": "qwen3.6-35b",
+    "tts": "silero-v5-ru-aidar"
+  },
+  "inputs": {
+    "image": "input_image.png",
+    "audio": "input_audio.ogg"
+  },
+  "transcription": "Посмотри на фотографию, сколько автомобилей припаркованного лет дома?",
+  "answer": "На фотографии нет автомобилей — на ней изображена комнатная монстера в белом горшке на деревянном столе у окна.",
+  "output_audio": "answer.wav",
+  "latency_seconds": {
+    "ASR": 10.35432827299519,
+    "VLM": 1.2967211060022237,
+    "TTS": 0.9031243919962435,
+    "TOTAL": 12.554222705002758
+  }
+}

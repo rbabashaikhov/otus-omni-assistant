@@ -1,0 +1,22 @@
+{
+  "experiment": "nutrition_zoom",
+  "timestamp_utc": "2026-11-08T15:25:17.653457+00:00",
+  "models": {
+    "asr": "whisper-base",
+    "vlm": "qwen3.6-35b",
+    "tts": "silero-v5-ru-aidar"
+  },
+  "inputs": {
+    "image": "input_image.png",
+    "audio": "input_audio.ogg"
+  },
+  "transcription": "Посмотри на экикетку продукта, сколько граммов белка – оказов и океанwon complement комменто.",
+  "answer": "На 100 г продукта содержится 12,4 г белка.",
+  "output_audio": "answer.wav",
+  "latency_seconds": {
+    "ASR": 11.075435172999278,
+    "VLM": 0.5179791940026917,
+    "TTS": 0.7962459289992694,
+    "TOTAL": 12.389700173000165
+  }
+}

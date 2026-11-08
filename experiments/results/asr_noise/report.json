@@ -1,0 +1,35 @@
+{
+  "model": "whisper-base",
+  "device": "cpu",
+  "sample_rate": 16000,
+  "random_seed": 42,
+  "noise_type": "white_gaussian",
+  "snr_levels_db": [
+    15,
+    5
+  ],
+  "reference_text": null,
+  "results": [
+    {
+      "scenario": "original",
+      "audio_file": "original.wav",
+      "transcription": "Посмотри на фотографию холодильника, какие продукты ты видишь, что можно приготовить из них на ужин, предложить два простых блюда.",
+      "latency_seconds": 1.069,
+      "wer": null
+    },
+    {
+      "scenario": "snr_15db",
+      "audio_file": "snr_15db.wav",
+      "transcription": "Посмотри на подогряти у холодильника, такие продукты видишь, что он приготовить и вид на ужин, предложить два простых блюда.",
+      "latency_seconds": 0.921,
+      "wer": null
+    },
+    {
+      "scenario": "snr_5db",
+      "audio_file": "snr_5db.wav",
+      "transcription": "Отмотена подогрячая стройби, на какие продукции ты видишь, что обротли готовится быть на уровне. И власть здесь два простой шага были.",
+      "latency_seconds": 1.112,
+      "wer": null
+    }
+  ]
+}

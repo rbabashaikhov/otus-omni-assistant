@@ -1,0 +1,22 @@
+{
+  "experiment": "fridge_noisy_5db",
+  "timestamp_utc": "2026-11-08T15:48:21.641390+00:00",
+  "models": {
+    "asr": "whisper-base",
+    "vlm": "qwen3.6-35b",
+    "tts": "silero-v5-ru-aidar"
+  },
+  "inputs": {
+    "image": "input_image.png",
+    "audio": "input_audio.wav"
+  },
+  "transcription": "подşу над",
+  "answer": "Топ-шкафы — это специальные поисковые системы, предлагающие информацию по будущему.",
+  "output_audio": "answer.wav",
+  "latency_seconds": {
+    "ASR": 11.15833606600063,
+    "VLM": 1.1928020119958092,
+    "TTS": 0.7654702549989452,
+    "TOTAL": 13.116649925999809
+  }
+}

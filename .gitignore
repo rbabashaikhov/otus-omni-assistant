@@ -1,0 +1,29 @@
+# Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+# Python / IDE
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.vscode/
+# Models and caches
+.cache/
+*.pt
+*.pth
+*.safetensors
+# Generated UI audio / local temp
+samples/output/
+outputs/
+.gradio/
+# Local backups / archives
+*.tar
+*.tar.gz
+*.zip
+# System
+.DS_Store

@@ -1,0 +1,12 @@
+openai-whisper
+torch
+torchaudio
+scipy
+numpy
+omegaconf
+openai
+python-dotenv
+gradio
+pandas
+matplotlib
+ipykernel
